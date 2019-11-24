@@ -363,26 +363,24 @@ p {
 
 .users {
   width: 100%;
-  background-color: #009cde;
+  background-color: #0070ba;
   padding: 45px 0;
 }
  
-#join {
-    background-color: #009cde;
+.users__upper {
   color: #fff;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  align-items: center;
   padding: 15px;
   }
 
-.join__header {
-  align-self: center;
+.users__header {
   font-size: 40px;
   font-weight: lighter;
 }
 
-.inner-section{
+.users__content{
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -418,6 +416,7 @@ p {
   font-weight: bold;
   margin: 20px 0 10px 0;
   padding-top: 20px;
+  text-shadow: 0 0 1px #fff;
 }
 
 .box a:hover {
@@ -426,7 +425,7 @@ p {
 
 #sign_up{
   display: flex;
-  justify-content: center;
+  align-items: center;
   width: 100%;
   background-color: #f5f7fa;
   padding: 60px 0;
@@ -437,13 +436,25 @@ p {
   font-size: 40px;
 }
 
-.sign
+.sign__up-box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
 
-.get_started-btn {
-  color:#fff;
-  
-  background-color: #009cde;
+.sign_up-button-link {
+  background-color: #0070ba;
+  margin: 15px;
+  border-radius: 35px; 
+  width: 300px; 
+  padding: 15px 10px;
+  display: inline-block;
+  border: 0px;
+}
 
+.sign__up-box a {
+  color: #fff;
+  font-weight: bold;
 }
 
 
