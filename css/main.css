@@ -70,12 +70,26 @@ p {
 .header {
   background: #9da3a6;
   position: relative;
-  z-index: 1;
-  height: 950px;
-  background: #0070ba;
- 
+  height: 800px;
+  background: url(../assets/images/banner.jpg) center center;
   background-size: cover;
   color: #fff;
+  z-index: 1;
+}
+
+.header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 100, 220, 0.5);
+  z-index: -1;
+}
+
+.top-nav {
+  border-bottom: 1px solid #fff;
 }
 
 .nav-bar {
@@ -83,8 +97,6 @@ p {
   height: 80px;
   display: flex;
   list-style: none;
-  border-bottom: 1px solid #fff;
-
 }
 
 .nav-bar__logo {
@@ -366,26 +378,26 @@ p {
   background-color: #0070ba;
   padding: 45px 0;
 }
- 
+
 .users__upper {
   color: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 15px;
-  }
+}
 
 .users__header {
   font-size: 40px;
   font-weight: lighter;
 }
 
-.users__content{
+.users__content {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  
-  
+
+
 }
 
 .box {
@@ -423,7 +435,7 @@ p {
   text-decoration-line: underline;
 }
 
-#sign_up{
+#sign_up {
   display: flex;
   align-items: center;
   width: 100%;
@@ -445,8 +457,8 @@ p {
 .sign_up-button-link {
   background-color: #0070ba;
   margin: 15px;
-  border-radius: 35px; 
-  width: 300px; 
+  border-radius: 35px;
+  width: 300px;
   padding: 15px 10px;
   display: inline-block;
   border: 0px;
@@ -456,5 +468,3 @@ p {
   color: #fff;
   font-weight: bold;
 }
-
-
