@@ -479,7 +479,7 @@ p {
   display: flex;
   justify-content: space-between;
   margin-top: 70px;
-  border-bottom: 1px dashed #9da3a6;
+  border-bottom: 1px dashed #9da3a6
 }
 
 .top-left ul {
@@ -530,7 +530,7 @@ p {
   opacity: 0.7;
 }
 
-.country-selector img: :hover {
+.country-selector img:hover {
   box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
 
