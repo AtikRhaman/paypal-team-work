@@ -100,7 +100,6 @@ p {
 }
 
 .nav-bar__logo {
-
   width: 20%;
   height: 43px;
   display: inline-block;
@@ -129,6 +128,11 @@ p {
   padding: 0 28px;
   line-height: 80px;
   color: #fff;
+}
+
+.nav-bar__nav ul li a:hover {
+
+  text-decoration: none;
 }
 
 .nav-bar__nav ul li:hover {
@@ -471,128 +475,62 @@ p {
 
 
 /* Zizi- ----------------------------FOOTER */
-
-.footer {
-
-  font-family: PayPalSansSmall-Regular, Helvetica Neue, Arial, sans-serif;
-  background-color: transparent;
-  font-weight: 700;
-  padding: 60px 0px;
-
-}
-
-/*Footer top: consists of top left and top right */
-
 .footer-top {
-
   display: flex;
   justify-content: space-between;
-  padding: 0px 48px;
-
+  margin-top: 70px;
+  border-bottom: 1px dashed #9da3a6;
 }
 
-.top-left {
+.top-left ul {
   display: flex;
-
+  flex-direction: row;
+  align-items: flex-end;
 }
 
-.top-right {
-  display: flex;
-  padding-right: 25px;
-
+.top-left ul li {
+  padding: 0 10px;
 }
 
-/* Footer bottom: consists of bottom left and bottom right */
+.top-left ul li a {
+  color: #2c2e2f;
+  font-weight: bold;
+  font-size: 14px;
+}
 
 .footer-bottom {
-
   display: flex;
   justify-content: space-between;
-  padding: 0px 48px;
+  margin-bottom: 170px;
 }
 
-.bottom-left {
-  display: flex;
-
-}
-
-.bottom-right {
-  display: flex;
-  color: #6c7378;
-  padding-right: 25px;
-
-
-}
-
-/* LISTS */
-
-ul {
+.bottom-left ul {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  align-items: flex-end;
 }
 
-li {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin: 6px 18px 2px 0;
+.bottom-left ul li {
+  padding: 0 10px;
 }
 
-
-/* LINKS */
-
-.top-left a {
-
-  text-decoration: none;
+.bottom-left ul li a {
   color: #2c2e2f;
-  font-size: 15px;
-
-}
-
-.bottom-left a,
-.bottom-right a {
-  text-decoration: none;
   font-size: 13px;
-  color: #6c7378;
 
 }
 
 .footer-copyright {
-  font-weight: 400;
-  color: #6c7378;
-  font-size: 13px;
+  font-size: 12px;
 }
-
-a:hover {
-  text-decoration: underline;
-}
-
-/* The damn line */
-
-hr {
-
-  background-image: linear-gradient(to right, #b7bcbf 50%, rgba(255, 255, 255, 0) 40%);
-  background-position: top;
-  background-size: 3px 1px;
-  height: 1px;
-  margin: 0;
-  border-top: 0;
-  border-bottom: 0;
-  padding-left: 0;
-
-}
-
-/* Image */
 
 .country-selector img {
   width: 25px;
   height: 26px;
   opacity: 0.7;
-
 }
 
-img:hover {
+.country-selector img: :hover {
   box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
 
