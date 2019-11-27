@@ -90,6 +90,7 @@ p {
 
 .top-nav {
   border-bottom: 1px solid #fff;
+  position: relative;
 }
 
 .nav-bar {
@@ -116,16 +117,22 @@ p {
 
 .nav-bar__nav {
   width: 60%;
+  z-index: 3;
+}
+
+.nav-bar__nav ul {
+  display: flex;
+  flex-direction: row;
 }
 
 .nav-bar__nav ul li {
-  float: left;
   color: #fff;
   text-transform: uppercase;
+  cursor: pointer;
+  padding: 0 28px;
 }
 
 .nav-bar__nav ul li a {
-  padding: 0 28px;
   line-height: 80px;
   color: #fff;
 }
@@ -138,6 +145,10 @@ p {
 .nav-bar__nav ul li:hover {
   color: #000;
   border-bottom: 2px solid #fff;
+}
+
+.hambarger-menu {
+  display: none;
 }
 
 .nav-bar__login-signup {
