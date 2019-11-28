@@ -195,6 +195,140 @@
         margin-top: 10px;
     }
 
+        /* artur, servise section */
+
+    .block-title {
+        font-size: 30px;
+    }
+
+    .service__block-content {
+        margin-top: 20px;
+    }
+
+    .block-content__list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .block-content__item {
+        width: 85%;
+        margin-left: 0px;
+    }
+
+    .block-content__img {
+        margin: 15px 0 15px;
+    }
+
+    .block-content__btn {
+        margin: 10px 0 20px;
+    }
+
+    .block-product__list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .block-product__item {
+        width: 85%;
+    }
+
+    .block-product__desc {
+        align-items: baseline;
+    }
+
+
+        /* artur, servise section */    
+    .block-title {
+        font-size: 30px;
+    }    
+    .service__block-content {
+        margin-top: 20px;
+    }
+
+    .block-content__list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .block-content__item {
+        width: 85%;
+        margin-left: 0px;
+    }
+
+    .block-content__img {
+        margin: 15px 0 15px;
+    }
+
+    .block-content__btn {
+        margin: 10px 0 20px;
+    }
+
+    .block-product__list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .block-product__item {
+        width: 85%;
+    }
+
+    .block-product__desc {
+        align-items: baseline;
+    }
+}    
+
+@media only screen and (max-width: 768px) {
+    .block-title {
+        font-size: 35px;
+    }
+
+    .service__block-content {
+        margin-top: 25px;
+    }
+
+    .block-content__list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .block-content__item {
+        width: 50%;
+        margin-left: 0;
+        padding: 0 10px;
+    }
+
+    .block-content__img {
+        margin: 25px 0 55px;
+    }
+
+    .block-content__btn {
+        margin: 15px 0 25px;
+    }
+
+    .block-product__list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .block-product__item {
+        width: 85%;
+    }
+
+    .block-product__desc {
+        align-items: baseline;
+    }
+}
+
+
     /* Porttait tablate */
     @media only screen and (min-width: 600px) {}
 
