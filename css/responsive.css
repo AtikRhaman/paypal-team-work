@@ -93,12 +93,37 @@
 
     }
 
+   .users__header {
+    font-size: 30px;
+    text-align: center;
+   }
+
+   .users__content {
+    display: flex;
+    flex-direction: column;
+   }
+
+   .box__content-message {
+    width: 99%;
+   }
+
+   .sign_up-heading {
+    font-size: 25px;
+    font-weight: bold;
+   }
+
+   .sign_up-button-link {
+    width: 195px;
+    padding: 10px 5px;
+   }
+
+
 }
 
-/* Porttait tablate */
+/* Portrait tablet */
 @media only screen and (min-width: 600px) {}
 
-/*LandScap Tablate */
+/*LandScap Tablet */
 @media only screen and (min-width: 768px) {}
 
 /* desktop */
