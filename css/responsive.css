@@ -119,37 +119,7 @@
 
 
 
-    /* footer */
-    .footer-top {
-        flex-direction: column-reverse;
-        justify-content: center;
-        align-items: center;
-        border: none;
-        padding: 0px 10px;
-    }
 
-    .footer-bottom {
-        flex-direction: column;
-    }
-
-
-    .top-left {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .top-left ul li {
-        padding: 0 6px;
-    }
-
-    .bottom-left ul {
-        display: flex;
-        flex-direction: row;
-        /* align-items: flex-end; */
-        align-items: center;
-        justify-content: center;
-    }
 
 
     /* Users */
@@ -178,6 +148,49 @@
         padding: 10px 5px;
     }
 
+
+
+    /* footer */
+    .footer-top {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        padding: 0px 10px;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+    }
+
+
+    .top-left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 12px;
+    }
+
+    .top-left ul {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .top-left ul li {
+        padding: 0 6px;
+    }
+
+
+    .bottom-left ul {
+        display: flex;
+        flex-wrap: wrap;
+        /* align-items: flex-end; */
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+    }
 
     /* Porttait tablate */
     @media only screen and (min-width: 600px) {}
