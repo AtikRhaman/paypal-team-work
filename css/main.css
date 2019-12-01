@@ -70,7 +70,7 @@ p {
 .header {
   background: #9da3a6;
   position: relative;
-  height: 800px;
+  height: auto;
   background: url(../assets/images/banner.jpg) center center;
   background-size: cover;
   color: #fff;
@@ -84,12 +84,12 @@ p {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 100, 220, 0.5);
+  background: rgba(0, 100, 220, 0.75);
   z-index: -1;
 }
 
 .top-nav {
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
   position: relative;
 }
 
@@ -179,29 +179,59 @@ p {
   opacity: 0.9;
 }
 
-.personal-business {
-  width: 50%;
-  padding: 20% 5%;
-  float: left;
-  text-align: center;
-  font-size: 20px;
+.banner {
+  display: flex;
 }
 
-.personal-business__btn {
+.personal-business {
+  /* width: 50%; */
+  padding: 14% 5%;
+  /* float: left; */
+  text-align: center;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.btn-bannner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #0070ba;
+  border-radius: 30px;
+  border: 1px solid #fff;
+  margin: 20px;
+  background: #fff;
+  width: 300px;
+  cursor: pointer;
+  opacity: .95;
+}
+
+.btn-bannner a {
+  padding: 10px 10px;
+  color: #0070ba;
+
+}
+
+.btn-bannner:hover {
+  opacity: 1;
+}
+
+/* .personal-business__btn {
   color: #0070ba;
   border: 1px solid #fff;
   background: #fff;
   padding: 13px 15px;
   font-family: "Helvetica Neue", Arial, sans-serif;
-  font-weight: 700;
   margin-top: 30px;
   border-radius: 30px;
-  opacity: .9;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 45px;
-}
+} */
 
 
 /* Artur's scc code */
@@ -209,6 +239,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 0 20px;
 }
 
 .service__top {
@@ -220,6 +251,7 @@ p {
 .service__block-title {
   display: flex;
   justify-content: center;
+  text-align: center;
 }
 
 .block-title {
@@ -233,6 +265,10 @@ p {
 
 .service__block-content {
   margin-top: 40px;
+}
+
+.block-content__title {
+  text-align: center;
 }
 
 .block-content__list {
@@ -280,7 +316,6 @@ p {
 .block-content__btn {
   color: #0070ba;
   border: 1px solid #0070ba;
-  padding: 13px 75px;
   font-family: "Helvetica Neue", Arial, sans-serif;
   font-weight: 700;
   margin-top: 30px;
@@ -290,6 +325,12 @@ p {
   align-items: center;
   justify-content: center;
   height: 45px;
+  width: 100%;
+  max-width: 320px;
+}
+
+.block-content__btn_size_big {
+  max-width: 320px;
 }
 
 .block-content__btn:hover {
@@ -353,6 +394,10 @@ p {
   margin: 0 12px;
 }
 
+.block-product__item img {
+  max-width: 100%;
+}
+
 .block-product__desc {
   display: flex;
   align-items: flex-start;
@@ -385,6 +430,7 @@ p {
 .block-content__btn {
   margin: 30px 0 60px;
 }
+
 
 /* User css code */
 
